@@ -5,3 +5,10 @@ p {
     background-color: hsl(309, 46%, 72%);
     font-family: Verdana, 'DejaVu Sans', sans-serif;
 }
+
+/* I added the 'second' ID in my HTML file */
+
+#second {
+    color: rgb(0, 0, 255);
+    font-size: 36px;
+}
