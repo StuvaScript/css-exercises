@@ -1,14 +1,23 @@
 
-/* This is my paragraph selector */
+/* This is my class selector */
 
-p {
+.odd-numbers {
     background-color: hsl(309, 46%, 72%);
     font-family: Verdana, 'DejaVu Sans', sans-serif;
 }
 
-/* I added the 'second' ID in my HTML file */
+.size-queen {
+    font-size: 24px;
+}
+
+/* This is my ID selector */
 
 #second {
     color: rgb(0, 0, 255);
     font-size: 36px;
+}
+
+#fourth {
+    background-color: #00ff0050;
+    font-weight: bold;
 }
