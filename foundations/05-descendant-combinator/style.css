@@ -1,0 +1,8 @@
+/* Global selectors */
+
+div p {
+    background-color: rgb(255, 179, 0);
+    color: rgb(215, 63, 91);
+    font-size: 20px;
+    text-align: center;
+}
