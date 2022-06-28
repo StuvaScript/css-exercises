@@ -47,6 +47,14 @@ body {
 
 .card-space {
   padding: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 20px;
+}
+
+.card {
+  flex: 1 1 33%;
 }
 
 .sidebar {
