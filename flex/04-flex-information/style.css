@@ -1,3 +1,6 @@
+
+/* type selectors */
+
 body {
   font-family: 'Courier New', Courier, monospace;
 }
@@ -7,9 +10,17 @@ img {
   height: 100px;
 }
 
+/* class selectors */
+
 .title {
   font-size: 36px;
   font-weight: 900;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* do not edit this footer */
