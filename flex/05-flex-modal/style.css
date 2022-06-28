@@ -82,6 +82,13 @@ button.cancel {
 
 .group-b {
   display: flex;
+  gap: 0.5em;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: auto;
 }
 
 /* type selectors */
