@@ -33,3 +33,34 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
+
+.content {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+}
+
+button {
+  padding: 10px;;
+}
+
+.header,
+.footer,
+.left-links,
+.right-links {
+display: flex;
+justify-content: space-between;
+}
+
+.footer {
+  background: #eeeeee;
+}
