@@ -43,6 +43,9 @@ body {
 .header {
   font-size: 32px;
   font-weight: 900;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
 }
 
 .card-space {
@@ -54,10 +57,30 @@ body {
 }
 
 .card {
-  flex: 1 1 33%;
+  flex: 1 1 30%;
+  padding: 10px;
 }
 
 .sidebar {
   width: 300px;
   flex-shrink: 0;
+  padding: 16px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar a {
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+  line-height: 2em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
 }
